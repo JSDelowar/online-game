@@ -29,9 +29,7 @@
     border-radius: 50px;
     background: #4EC5F7;
 }
-section{
-    margin-top: 50px;
-}
+
 .logo{
     display: flex;
     justify-content: center;
@@ -238,6 +236,7 @@ section{
     align-items: center;
     justify-content: space-between;
     margin: auto;
+    padding-bottom: 50px;
 }
 .image{
     position: relative;
@@ -302,6 +301,7 @@ section{
 
 /* frofile section   */
 .container{
+    padding-top: 30px ;
     background: rgb(253, 248, 241);
 }
  .frofile-container{
@@ -374,7 +374,7 @@ footer{
     font-weight: 600;
     color: white;
   }
-  
+
   .footer-menu li {
     margin: 10px 0;
   }
@@ -427,6 +427,9 @@ footer{
   /* Responsive Design for Mobile */
 
   @media screen and (max-width:576px) {
+    body{
+        align-items: center;
+    }
     .menu-container{
         flex-direction: column;
     }
@@ -474,7 +477,6 @@ footer{
     /* responsive for laptop */
   @media screen and (min-width:577px) and (max-width:1024px) {
     .menu-container{
-        background-color: #F61C0D;
         flex-direction: column;
     }
     .header-container{

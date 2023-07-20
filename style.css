@@ -177,26 +177,6 @@ section{
     text-align: center;
     justify-content: center;
 }
-.gamer-col img{
-    width: 100%;
-}
-.gamer-image{
-    position: relative;
-    right: 0;
-    top: 0;
-}
-.image1{
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-.image2{
-    width: 100px;
-    height: 220px;
-    position: absolute;
-    right:180px;
-    bottom: 0px;
-}
 
 /* Online game section */
 
@@ -271,13 +251,14 @@ section{
 }
 .image2{
     position: absolute;
-    left: -50px;
+    left: -150px;
     bottom: -50px;
 }
 .image-text{
     text-align: right;
     align-items: center;
 }
+
 
 
 /* style */
@@ -348,9 +329,11 @@ section{
 }
 .frofile:hover{
     cursor: pointer;
+    border: 1px solid #FF42A5 ;
     color: #FF42A5;
-    transform: translateY(20px ,10px);
-    border: 1px solid ;
+}
+.frofile:hover p{
+    color: #FF42A5;
 }
 .frofile img{
     width: 50px;
@@ -404,7 +387,13 @@ footer{
     align-items: center;
     justify-content: space-between;
     margin: auto;
-  }
+}
+.social-container button{
+    background-color: #0B0223;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
   .fa-brands{
     margin: auto;
     font-size: 20px;

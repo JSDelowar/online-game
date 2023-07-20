@@ -90,7 +90,7 @@ section{
     margin-right: 0;
     padding: 10px 0;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     background: rgba(11, 2, 35, 0.10);
 }
 .fa-youtube,.fa-play,.fa-arrow-down-long{
@@ -231,9 +231,9 @@ section{
     -webkit-text-fill-color: transparent;
 }
 .play-text-style{
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 30px; 
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px; 
     padding: 20px 0;
 }
 

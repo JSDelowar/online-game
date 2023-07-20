@@ -173,6 +173,11 @@ section{
     border-radius: 50px;
     background: #42e3ff ;
 }
+.gamer-text-style{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 0;
+}
 .gamer-col img{
     width: 100%;
 }

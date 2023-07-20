@@ -1,4 +1,4 @@
-*{
+ *{
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -228,22 +228,29 @@ section{
 .card img{
     width: 90%;
 }
-/* .play-button{
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-}
-.play-button img{
-    width: 600px;
-    height: 400px;
-}
-.play-button, .play-btn{
+/* Your existing CSS styles for .card and .card-description here */
+
+.play-btn {
     position: absolute;
     top: 50%;
-    left: 70%;
-    transform: translate(-50%,-50%);
-    background-color: #000000;
-} */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 50%;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.play-btn i {
+    /* Add appropriate Font Awesome styles */
+}
+
+
+
+
 /* Image Overlay Section  */
 .image-overlay{
     width: 80%;
@@ -474,4 +481,51 @@ footer{
             grid-template-columns: repeat(3,1fr);
             text-align: center;
         }
+    } 
+    /* responsive for laptop */
+  @media screen and (min-width:577px) and (max-width:1024px) {
+    .menu-container{
+        background-color: #F61C0D;
+        flex-direction: column;
     }
+    .header-container{
+        flex-direction: column-reverse;
+        text-align: center;
+        }
+        .gamer-container{
+            flex-direction: column;
+        }
+        .online-game-section{
+            flex-direction: column;
+            text-align: justify;
+        }
+        .gamer-text-style{
+        text-align : justify;
+        }
+        .image-overlay{
+            flex-direction: column;
+            text-align: justify;
+            justify-content: center;
+        }
+        .image-text{
+            text-align: justify;
+        }
+        .frofile-container{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .footer-container{
+            flex-direction: column;
+            text-align: center;
+        }
+        .footer-menu ul{
+            grid-template-columns: repeat(2,1fr);
+            text-align: center;
+        }
+        .social-container{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .policy ul{
+            grid-template-columns: repeat(2,1fr);
+            text-align: center;
+        }
+    } 

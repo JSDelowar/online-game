@@ -126,6 +126,7 @@ section{
     padding: 20px 0;
 }
 .header-style p{
+    text-align: left;
     line-height: 10px;
     padding: 10px 0;
     color: #534C64;
@@ -276,7 +277,7 @@ section{
     gap: 10px;
     align-content: space-between;
     justify-content: space-evenly;
-    padding: 10px;
+    padding: 40px 10px;
     margin: auto;
 }
 .frofile{
@@ -317,8 +318,7 @@ footer{
     margin: auto;
 }
   .footer-menu {
-    /* border: 5px solid tomato; */
-    width: 50%;
+    width: 80%;
     margin: auto;
     align-items: center;
     justify-content: space-between;
@@ -342,12 +342,11 @@ footer{
   }
   .social-container{
     list-style: none;
-    /* border: 5px solid; */
-    width: 30%;
+    width: 40%;
     display: flex;
     padding: 20px 0;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: auto;
   }
   .fa-brands{
@@ -355,13 +354,13 @@ footer{
     font-size: 20px;
   }
   .policy{
-    /* border: 5px solid; */
+    border: 5px solid;
     text-align: center;
     padding: 15px;
 
   }
   .policy ul{
-    width: 40%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -369,15 +368,15 @@ footer{
     margin: auto;
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    font-size:16px;
-    font-weight: 500;
+    font-size:18px;
+    font-weight: 400;
     padding: 10px 0;
     gap: 10px;
   }
   .policy p{
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
     padding: 10px;
   }

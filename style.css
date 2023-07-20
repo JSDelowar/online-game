@@ -12,8 +12,8 @@
 }
 .text-style{
     text-align: center;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 45px;
+    font-weight: 700;
 }
 .btn-primary{
     width:100px;
@@ -51,6 +51,10 @@ section{
     justify-content: space-between;
     padding: 10px 0;
 }
+.menu-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px 0;
+}
 .menu-style{
     width: 40%;
     margin-right: 0;
@@ -61,29 +65,32 @@ section{
     list-style: none;
 }
 .menu-style a{
+    color: #3C354F;
     text-decoration: none;
 }
 .menu-icon{
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: auto;
     margin-right: 0;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
 }
 .menu-btn{
     color: #3C354F;
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
+    margin: auto;
     margin-right: 0;
     padding: 10px 0;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     background: rgba(11, 2, 35, 0.10);
 }
 .fa-youtube,.fa-play,.fa-arrow-down-long{
@@ -102,23 +109,28 @@ section{
 
 .header-text{
     text-align: start;
-    line-height: 35px;
+    line-height: 25px;
     font-size: 35px;
+    padding: 10px 0;
 }
 .goat{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding: 10px 0;
-    font-size: 35px;
-    font-weight: 800;
+    font-size: 45px;
+    font-weight: 700;
     text-transform: uppercase;
 }
-.header-text p{
-    font-size: 25px;
-    line-height: 30px;
+.header-container .header-style{
     padding: 20px 0;
+}
+.header-style p{
+    line-height: 10px;
+    padding: 10px 0;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 /* main section gamer container style  */
@@ -135,22 +147,21 @@ section{
     padding: 0 20px;
 }
 .gamer-col{
-    width: 50%;
-    text-align: right;
+    /* width: 50%; */
+    /* text-align: right; */
     color: #534C64;
     font-size: 18px;
     font-weight: 400;
     line-height: 10px; 
 }
-.gamer-col img{
-    width: 100%;
-}
-.gamer-col p{
+
+.gamer-col, h2, p{
     color: #534C64;
     text-align: right;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 20px; 
+    padding: 10px 0;
 }
 .gamer-btn{
     width:150px;
@@ -158,11 +169,12 @@ section{
     font-size: 18px;
     font-weight: 600;
     border: none;
-    padding: 10px 0;
     border-radius: 50px;
     background: #42e3ff ;
 }
-
+.gamer-col img{
+    width: 100%;
+}
 
 /* Online game section */
 
@@ -182,9 +194,8 @@ section{
 .card-title{
     color: #0B0223;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
-    padding: 10px 0;
 }
 .card-description{
     color: #534C64;
@@ -192,10 +203,10 @@ section{
     font-size: 18px;
     font-weight: 400;
     line-height: 18px; 
-    padding: 10px 0;
+    padding-bottom:20px ;
 }
 .card img{
-    width: 100%;
+    width: 90%;
 }
 
 /* Play Game section */
@@ -229,12 +240,11 @@ section{
     color: #534C64;
     text-align: right;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     line-height:20px;
-    padding: 10px 0;
 }
 .play-game-col{
-    width: 100%;
+    width: 80%;
     text-align: right;
     color: #534C64;
     font-size: 18px;
@@ -248,8 +258,8 @@ section{
     justify-content: center;
     text-align: right;
     font-size: 18px;
-    font-weight: 700;
-    line-height: 30px; 
+    font-weight: 400;
+    line-height: 20px; 
 }
 
 
@@ -260,7 +270,7 @@ section{
 
 }
  .frofile-container{
-    width: 80%;
+    width: 70%;
     display:flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -272,12 +282,14 @@ section{
 .frofile{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background: #fff;
     border: none;
-    border-radius: 50px;
+    border-radius: 40px;
     font-size: 18px;
-    padding: 10px;
+    width: 220px;
+    height: 50px;
+    padding: 5px;
     color: #0B0223;
     font-weight: 400;
 }
@@ -289,7 +301,6 @@ section{
 }
 .frofile img{
     width: 50px;
-    padding: 5px;
 }
 
 /* footer section style */
